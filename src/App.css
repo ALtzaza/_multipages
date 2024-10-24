@@ -1,0 +1,7 @@
+.app-container{
+width: 1025px; 
+border: 1px solid black;
+margin-left: 15rem;
+/* margin-top: 1rem; */
+background-color: rgb(216, 241, 152);   
+}

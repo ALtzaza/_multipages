@@ -1,0 +1,16 @@
+.todo-container{
+    border: 1px solid ;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.todo-filter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-spacing{
+    margin: 0 0.5rem;
+}

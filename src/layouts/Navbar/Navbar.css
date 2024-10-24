@@ -1,0 +1,9 @@
+.navbar-container{
+    border-radius: 10px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}

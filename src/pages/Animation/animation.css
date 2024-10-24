@@ -1,0 +1,46 @@
+#container{
+    border: 1px solid black;
+    width: fit-content;
+    margin: 10px auto;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#field{
+    border: 1px solid rgb(255, 0, 0);
+    width: 950PX;
+    height: 450px;
+    margin: 10px;
+    border-radius: 5px;
+    background-image: url('./wood.jpg');
+    background-size: 100%;
+    background-position: center;
+
+}
+
+#ball{
+
+    /* border: 1px solid rgb(17, 255, 0); */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: hotpink;
+    /* background-image: url('./img/Basketball.png'); */
+    background-size: 110%;
+    background-position: center;
+    position: relative;
+    transform: rotate(45deg);
+    /* background-image: url('./Basketball.png'); */
+    /* left:calc(300px - 50px - 2px);
+    top: calc(200px - 50px - 2px); */
+
+
+}
+
+
+#control{
+    /* border: 1px solid rgb(0, 204, 255); */
+    margin: 10px;
+    gap: 2rem;
+
+}
