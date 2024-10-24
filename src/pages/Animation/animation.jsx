@@ -163,6 +163,7 @@ const Animation = () => {
             </div>
             <div id="control" className='control-container'>
                 <h1 style={{backgroundColor: 'red', padding: '10px',color: 'white'}}>ต้องกดDouble Click!!!</h1>
+                <button id="run" className="btn btn-success" style={{ marginRight: '10px' }} onClick={runClick}>RUN</button>
                 <button onClick={() => changeBall('none')  } className='btn btn-outline-primary'  style={{ marginRight: '10px' }}>None</button>
                 <button onClick={() => changeBall('basketball')} className='btn btn-outline-primary'style={{ marginRight: '10px' }} >Basketball</button>
                 <button onClick={() => changeBall('football')} className='btn btn-outline-primary' style={{ marginRight: '10px' }}>Football</button>
