@@ -30,7 +30,7 @@ const inTap = 'home'
 
 function App() {
 
-  const [token, setToken] = useState('x')
+  const [token, setToken] = useState(' ')
   const [products, setProducts] = useState([])
   const [cart, setCart] = useState([])
  const [tap ,setTap] = useState(' ')
